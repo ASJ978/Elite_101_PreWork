@@ -16,5 +16,5 @@ input(f'You are {age}? I have a friend who is {age}! How can I help you {name}? 
 choice = input("\nYou can choose: \n 1. placeholder1 \n 2. placeholder2 \n 3. placeholder3 \n 4. placeholder4 \n 5. exit \n")
 
 if choice == "5":
-  print(f'Goodbye {name}! See you next time!')
-  exit
+  print(f'\nGoodbye {name}! See you next time!')
+  exit()
